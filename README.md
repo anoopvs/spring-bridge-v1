@@ -1,3 +1,6 @@
+[![Code Quality Score](https://www.code-inspector.com/project/18432/score/svg)](https://frontend.code-inspector.com/public/project/18432/spring-bridge-v1/dashboard)
+[![Code Grade](https://www.code-inspector.com/project/18432/status/svg)](https://frontend.code-inspector.com/public/project/18432/spring-bridge-v1/dashboard)
+
 #Spring Bridge Framework
 
 ##### Spring Bridge Framework - A simple adaptor framework designed to reuse existing  Java code written on top of Apache Struts 1.x Framework.This doesn't include Struts 1.x taglibs or its extentions (html,logic,bean,nested etc).All UI components needs to be migrated to JSTL or Spring Taglibs .The existing code can be reused by introducing bridge method which contains Spring Bridge Framework code  and couple of Spring Framework specific Annotations
