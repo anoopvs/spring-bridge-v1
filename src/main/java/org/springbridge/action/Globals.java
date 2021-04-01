@@ -29,9 +29,6 @@ public final class Globals implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
-	private Globals() {
-	}
-
 	/**
 	 * Match values like /jsp/{1}/Source.jsp or
 	 * org.apache.struts.apps.mailreader.actions.{1}Action or {1}Form
@@ -172,4 +169,7 @@ public final class Globals implements Serializable {
 	 * stores matchedPatterns from WildcardPathMatcher match method
 	 */
 	public static final String MATCHED_PATTERNS_MAP = PACKAGE_NAME + ".MATCHED_PATTERNS_MAP";
+	
+	private Globals() {
+	}
 }
