@@ -144,3 +144,6 @@ As a Java developer, This is my first attempt to give something back to communit
 Spring Bridge Framework only contains migration strategies for limited set of Struts features. You must carefully evaluate this before choosing. This framework contains code reuse strategies I have refined over 18-month time while migrating Struts projects(In some areas I still may me narrow minded while addressing the problems). I only dealt with one Struts project which uses Module concept and View was Struts Tiles. Tiles 3 has retired, So You must evaluate some other View Technology. I haven't defined any specific strategies for Struts Module concept, but put some extension points, You can evaluate it suits your need. Most of the projects view part was JSP and Struts tags and Velocity ,Migrated them to JSTL, Spring-Tags and Velocity 3.
 For any queries or feedback regarding Spring Bridge Framework you can mail me [Anoop V S](mailto:email128@gmail.com).This is my developer mail id.I will try to respond your queries during my weekends.
 
+## Changelog
+#### Fixes
+##### 2021-04-11 - Fixed minor code violations pointed by code-inspector. 
