@@ -40,14 +40,14 @@ import org.springframework.validation.BindingResult;
 
 public class ActionContext implements IActionContext {
 
-	private ActionMapping mapping;
-	private ActionForm actionForm;
-	private HttpServletRequest httpServletRequest;
-	private HttpServletResponse httpServletResponse;
-	private String formName;
-	private Object controller;
-	private BindingResult bindingResult;
-	private Model inputModel;
+	private final ActionMapping mapping;
+	private final ActionForm actionForm;
+	private final HttpServletRequest httpServletRequest;
+	private final HttpServletResponse httpServletResponse;
+	private final String formName;
+	private final Object controller;
+	private final BindingResult bindingResult;
+	private final Model inputModel;
 	private ExecuteFunction executeFunction;
 	private Exception executionException;
 	private boolean formValidationRequired = true;

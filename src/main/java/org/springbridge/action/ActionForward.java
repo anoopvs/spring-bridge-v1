@@ -34,7 +34,10 @@ public class ActionForward implements Serializable {
 	private String path;
 
 	private boolean redirect = false;
-
+	
+	/**
+     * Default no-args Constructor.
+     */
 	public ActionForward() {
 	}
 

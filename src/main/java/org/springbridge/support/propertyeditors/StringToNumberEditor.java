@@ -63,7 +63,7 @@ public class StringToNumberEditor extends CustomNumberEditor {
 		return defaultValueGenerator;
 	}
 
-	public void setDefaultValueGenerator(final IntSupplier defaultValueGenerator) {
+	public final void setDefaultValueGenerator(final IntSupplier defaultValueGenerator) {
 		if (Objects.nonNull(defaultValueGenerator)) {
 			this.defaultValueGenerator = defaultValueGenerator;
 		}

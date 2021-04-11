@@ -39,7 +39,10 @@ public abstract class AbstractActionFormValidator implements ActionFormValidator
 	public static final String GENERIC_VALIDATION_FAILED_MSG = "Validation failed. ['%s']";
 	/** Commons logger */
 	protected final Log logger = LogFactory.getLog(getClass());
-
+	
+    /**
+     * Default no-args Constructor.
+     */
 	protected AbstractActionFormValidator() {
 	}
 

@@ -47,5 +47,6 @@ public interface Form {
 	 * @param request Current HttpServletRequest
 	 */
 	public default void reset(final ActionMapping mapping, final HttpServletRequest request) {
+		//NOOP
 	}
 }
