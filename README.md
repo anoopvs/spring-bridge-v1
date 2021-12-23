@@ -1,5 +1,5 @@
-[![Code Quality Score](https://www.code-inspector.com/project/18432/score/svg?)](https://frontend.code-inspector.com/public/project/18432/spring-bridge-v1/dashboard)
-[![Code Grade](https://www.code-inspector.com/project/18432/status/svg?)](https://frontend.code-inspector.com/public/project/18432/spring-bridge-v1/dashboard)
+[![Code Quality Score](https://api.codiga.io/project/18432/score/svg?)](https://frontend.code-inspector.com/public/project/18432/spring-bridge-v1/dashboard)
+[![Code Grade](https://api.codiga.io/project/18432/status/svg?)](https://frontend.code-inspector.com/public/project/18432/spring-bridge-v1/dashboard)
 
 #Spring Bridge Framework
 
